@@ -14,6 +14,18 @@ class ViewController: UIViewController {
     let myNameString: String = "MasterUNG"
     
     
+    @IBOutlet weak var showNameLabel: UILabel!
+    
+    
+    @IBAction func changeButton(_ sender: Any) {
+        
+        print("You Click changeButton")
+        showNameLabel.text = myNameString
+        
+        
+    }   // changeButton
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
