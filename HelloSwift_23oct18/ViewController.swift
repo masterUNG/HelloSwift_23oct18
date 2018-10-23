@@ -9,6 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+//    Explicit
+    let myNameString: String = "MasterUNG"
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
